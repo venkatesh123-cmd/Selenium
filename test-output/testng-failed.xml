@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="SampleTestCases(failed)">
+    <groups>
+      <run>
+        <include name="venky"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.tcs.selenium.TestNGExamples.Testng">
+        <methods>
+          <include name="method3"/>
+        </methods>
+      </class> <!-- org.tcs.selenium.TestNGExamples.Testng -->
+    </classes>
+  </test> <!-- SampleTestCases(failed) -->
+</suite> <!-- Failed suite [Suite] -->

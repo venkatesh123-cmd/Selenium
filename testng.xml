@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="SampleTestCases">
+	  <parameter name="username" value="venky"></parameter>
+	  <parameter name="password" value="venky123"></parameter>
+	  <groups>
+		  <run>
+			  <include name="venky"></include>
+		  </run>
+	  </groups>
+	<classes>
+      	<!-- class name="org.tcs.selenium.TestNGExamples.Testng"/-->
+      	<class name="org.tcs.BasicTestCases.launchIRCTC">
+			  <methods>
+				  <include name="printMYname"></include>
+			  </methods>
+		</class>
+		
+    </classes>
+  </test>
+  
+</suite>

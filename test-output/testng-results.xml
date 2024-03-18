@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-18T04:25:37Z" name="Suite" finished-at="2024-03-18T04:25:37Z" duration-ms="21">
+    <groups>
+    </groups>
+    <test started-at="2024-03-18T04:25:37Z" name="SampleTestCases" finished-at="2024-03-18T04:25:37Z" duration-ms="21">
+      <class name="org.tcs.BasicTestCases.launchIRCTC">
+        <test-method signature="printMYname()[pri:0, instance:org.tcs.BasicTestCases.launchIRCTC@2f943d71]" started-at="2024-03-18T09:55:37Z" name="printMYname" finished-at="2024-03-18T09:55:37Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMYname -->
+      </class> <!-- org.tcs.BasicTestCases.launchIRCTC -->
+    </test> <!-- SampleTestCases -->
+  </suite> <!-- Suite -->
+</testng-results>
